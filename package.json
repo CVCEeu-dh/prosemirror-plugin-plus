@@ -1,0 +1,33 @@
+{
+  "name": "prosemirror-plugin",
+  "version": "0.1.0",
+  "description": "Add - Plugin for ProseMirror",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test/start.js",
+    "demo": "moduleserve --transform babel demo",
+    "dist": "babel -d dist src",
+    "dist-watch": "babel -w -d dist src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CVCEeu-dh/prosemirror-plugin-plus.git"
+  },
+  "author": "Daniele Guido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CVCEeu-dh/prosemirror-plugin-plus/issues"
+  },
+  "homepage": "",
+  "peerDependencies": {
+    "prosemirror": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "lodash": "^4.14.2",
+    "markdown-it": "^7.0.0",
+    "moduleserve": "^0.8.0",
+    "punycode": "^2.0.0"
+  }
+}
